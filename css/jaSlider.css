@@ -1,11 +1,15 @@
+.jaslider-div{
+	position:relative;
+}
+
 .jaslider-menu{
 	position: inherit;
 	float:left;
 	color:#fff;
 	width: 20%;
 	z-index: 300000;
-	/*background: rgb(73,73,73);*/
-	background-image: url('../img/bg/bg03.png');
+	background: rgb(73,73,73);
+	/*background-image: url('../img/bg/bg03.png');*/
 	background-repeat: repeat;
 	height: 100%;
 	left: -256px;
@@ -14,7 +18,7 @@
 
 .jaslider-button{
 	display: inline-block;
-	background: url('../img/menu25.png');
+	/*background: url('../img/menu25.png');*/
 	background-repeat: no-repeat; 
     left: 32px;
     width: 25px;
