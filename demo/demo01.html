@@ -2,26 +2,75 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/jaSlider.css">
-	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-2.1.0.js"></script>
 	<script type="text/javascript" src="../js/jaSlider.js"></script>
 </head>
 <style type="text/css">
-	
+	body{margin:0;font-family: "OpenSansCondensedBold",Helvetica,Arial,sans-serif;font-weight: lighter;}
+	header{width: 100%;background-color: black;padding: 5px 0 6px;}
+	h1.navTitle{color:white;margin:0;display: inline;vertical-align: middle;}
+	div.jaslider-content div section{display:inline-block;width: 46%;text-align: justify;padding: 1%;margin: 0 0 50px;}
+	/*div.jaslider-content section:first-child{float: left;}*/
+	footer{height: 200px;background-color: rgb(41,41,41);text-align: center;padding: 65px 0 0;color: white;}
+	ul.ul-menu{list-style: none;}
+	li.item-menu{text-transform: uppercase;margin: 45px 0 10px;}
 </style>
 <body>
 	<header>
-		<nav></nav>
+		<button class="jaslider-button" style="display:inline;">More</button><h1 class="navTitle">Demo #01 of jaSlider</h1>
 	</header>
 	<div class="jaslider-div">
-		<div class="jaslider-menu">MENU</div>
-		<div class="jaslider-content">CONTENIDO <button class="jaslidder-button">Show menu</button></div>
+		<div class="jaslider-menu">
+			<section>
+				<ul class="ul-menu">
+					<li class="item-menu">Menu item 01</li>
+					<li class="item-menu">Menu item 02</li>
+					<li class="item-menu">Menu item 03</li>
+					<li class="item-menu">Menu item 04</li>
+				</ul>
+		</section>
+		</div>
+		<div class="jaslider-content">
+			
+			<div>
+				<section>
+					<h1>Header #1</h1><h2>Lore Ipsum</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac metus molestie, dapibus odio nec, pharetra ante. Quisque mollis congue aliquam. Aliquam erat volutpat. Aliquam et ullamcorper mi. Sed tempor turpis urna, sit amet pretium sapien imperdiet luctus. Proin consequat nec mi ut semper. Nam sit amet gravida lectus, condimentum sagittis nulla. Cras ac lacus id mi mollis congue. Etiam semper eu nibh a placerat. Etiam augue nunc, porttitor ac tristique sed, cursus eget mauris. Nulla lacus sapien, posuere ut condimentum a, dignissim nec odio. Vestibulum et dolor id nibh sagittis accumsan ac ac lectus.</p>
+
+					<p>Sed leo felis, faucibus eu quam eu, egestas pharetra ipsum. Proin cursus orci eget tincidunt placerat. Sed pretium iaculis est non adipiscing. Etiam porttitor ut arcu eget convallis. Nam lacinia massa ut aliquet tristique. Phasellus aliquam, sem ut pulvinar convallis, nunc tortor tempus risus, a eleifend lacus ante vel justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque bibendum nibh felis, sit amet consequat nisi molestie sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nec mattis sem. Integer pharetra mattis dolor. Sed vitae massa massa. Nulla eget nulla pharetra, consequat leo gravida, aliquam diam. Morbi ut dapibus mauris, et faucibus leo. Suspendisse porta hendrerit nibh, a pulvinar nulla vestibulum id.</p>
+
+					<p>Vivamus semper fermentum ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales tincidunt sapien et eleifend. Sed bibendum quis nunc et pharetra. Fusce vel auctor orci. Donec ultricies ut urna at lobortis. Cras magna quam, consectetur ac porttitor vitae, euismod vel mauris. Aliquam mattis blandit venenatis. Morbi dictum nulla risus. Donec lectus est, convallis ac urna quis, fermentum posuere justo. Nunc gravida consectetur nibh et placerat.</p>
+
+					<p>Etiam tincidunt semper tempor. In eget augue metus. Vivamus est turpis, interdum in placerat non, scelerisque eget lectus. Nulla dolor mi, suscipit quis arcu sit amet, adipiscing tristique massa. Fusce sollicitudin dolor turpis, at viverra erat aliquam quis. Cras rhoncus lacus nunc, ac imperdiet nibh aliquet at. Etiam ultricies, lectus a sollicitudin congue, lacus enim venenatis enim, et scelerisque risus arcu et neque. Aliquam a hendrerit neque. Vivamus consequat tortor quis augue tempus ornare. In commodo lobortis odio. Nulla lorem enim, lobortis nec dui vitae, pellentesque tincidunt purus. Phasellus ullamcorper id nunc quis venenatis. Aliquam congue urna metus. Fusce mollis aliquam pretium.</p>
+
+					<p>Maecenas nec neque ac augue feugiat cursus. Aenean lobortis dolor at urna gravida rhoncus. Vivamus at dapibus est, non mattis est. Sed lorem neque, viverra vitae ante ac, imperdiet egestas dui. Curabitur consectetur molestie nunc, nec dictum sapien pretium sed. Cras accumsan diam at sapien ultricies ultrices. Morbi consectetur hendrerit posuere. Duis gravida pharetra vestibulum. Sed in magna libero. Vestibulum eu posuere turpis, in vulputate augue. Sed venenatis faucibus tellus, sed venenatis turpis iaculis non.</p>
+				</section>
+				<section>
+					<h1>Header #2</h1><h2>Lore Ipsum</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac metus molestie, dapibus odio nec, pharetra ante. Quisque mollis congue aliquam. Aliquam erat volutpat. Aliquam et ullamcorper mi. Sed tempor turpis urna, sit amet pretium sapien imperdiet luctus. Proin consequat nec mi ut semper. Nam sit amet gravida lectus, condimentum sagittis nulla. Cras ac lacus id mi mollis congue. Etiam semper eu nibh a placerat. Etiam augue nunc, porttitor ac tristique sed, cursus eget mauris. Nulla lacus sapien, posuere ut condimentum a, dignissim nec odio. Vestibulum et dolor id nibh sagittis accumsan ac ac lectus.</p>
+
+					<p>Sed leo felis, faucibus eu quam eu, egestas pharetra ipsum. Proin cursus orci eget tincidunt placerat. Sed pretium iaculis est non adipiscing. Etiam porttitor ut arcu eget convallis. Nam lacinia massa ut aliquet tristique. Phasellus aliquam, sem ut pulvinar convallis, nunc tortor tempus risus, a eleifend lacus ante vel justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque bibendum nibh felis, sit amet consequat nisi molestie sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nec mattis sem. Integer pharetra mattis dolor. Sed vitae massa massa. Nulla eget nulla pharetra, consequat leo gravida, aliquam diam. Morbi ut dapibus mauris, et faucibus leo. Suspendisse porta hendrerit nibh, a pulvinar nulla vestibulum id.</p>
+
+					<p>Vivamus semper fermentum ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales tincidunt sapien et eleifend. Sed bibendum quis nunc et pharetra. Fusce vel auctor orci. Donec ultricies ut urna at lobortis. Cras magna quam, consectetur ac porttitor vitae, euismod vel mauris. Aliquam mattis blandit venenatis. Morbi dictum nulla risus. Donec lectus est, convallis ac urna quis, fermentum posuere justo. Nunc gravida consectetur nibh et placerat.</p>
+
+					<p>Etiam tincidunt semper tempor. In eget augue metus. Vivamus est turpis, interdum in placerat non, scelerisque eget lectus. Nulla dolor mi, suscipit quis arcu sit amet, adipiscing tristique massa. Fusce sollicitudin dolor turpis, at viverra erat aliquam quis. Cras rhoncus lacus nunc, ac imperdiet nibh aliquet at. Etiam ultricies, lectus a sollicitudin congue, lacus enim venenatis enim, et scelerisque risus arcu et neque. Aliquam a hendrerit neque. Vivamus consequat tortor quis augue tempus ornare. In commodo lobortis odio. Nulla lorem enim, lobortis nec dui vitae, pellentesque tincidunt purus. Phasellus ullamcorper id nunc quis venenatis. Aliquam congue urna metus. Fusce mollis aliquam pretium.</p>
+
+					<p>Maecenas nec neque ac augue feugiat cursus. Aenean lobortis dolor at urna gravida rhoncus. Vivamus at dapibus est, non mattis est. Sed lorem neque, viverra vitae ante ac, imperdiet egestas dui. Curabitur consectetur molestie nunc, nec dictum sapien pretium sed. Cras accumsan diam at sapien ultricies ultrices. Morbi consectetur hendrerit posuere. Duis gravida pharetra vestibulum. Sed in magna libero. Vestibulum eu posuere turpis, in vulputate augue. Sed venenatis faucibus tellus, sed venenatis turpis iaculis non.</p>
+				</section>
+			</div>
+		</div>
 	</div>
-
+	<footer>
+	<p>Created by Juan Antonio Jimenez</p>
+	<p>Demo for jQuery plugin: jaSlider</p>
+</footer>
 </body>
-<script type="text/javascript">
 
+
+<script type="text/javascript">
+	var sliderDiv;
 	$(document).ready(function() {
-		$(".jaslider-div").jaSlider();
+		sliderDiv = $(".jaslider-div").jaSlider();
 	});
 
 </script>

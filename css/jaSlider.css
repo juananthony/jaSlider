@@ -1,13 +1,14 @@
 .jaslider-div{
-	position:relative;
+	position: relative;
+	height: 100%;
 }
 
 .jaslider-menu{
-	position: inherit;
+	position: absolute;
 	float:left;
 	color:#fff;
 	width: 20%;
-	z-index: 300000;
+	/*z-index: 300000;*/
 	background: rgb(73,73,73);
 	/*background-image: url('../img/bg/bg03.png');*/
 	background-repeat: repeat;
@@ -16,13 +17,14 @@
 	/*border-right: solid 2px black;*/
 }
 
+.jaslider-content{
+	position: relative;
+}
+
 .jaslider-button{
 	display: inline-block;
 	/*background: url('../img/menu25.png');*/
 	background-repeat: no-repeat; 
-    left: 32px;
-    width: 25px;
-    height: 25px;
     border-collapse: collapse;
     border-radius: 5px;
 	vertical-align: middle;
@@ -35,3 +37,4 @@
 .jaslider-button>img{
 	margin-left: 1px;
 }
+
