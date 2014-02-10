@@ -1,7 +1,9 @@
 jaSlider
 ========
 
-jQuery plugin to create a slider menu on your website. To create this plugin was used the following: [jQuery](http://jquery.com/),[Coffeescript](http://coffeescript.org/)
+jQuery plugin to create a slider menu on your website. To create this plugin was used the following: 
+* [jQuery](http://jquery.com/)
+* [Coffeescript](http://coffeescript.org/)
 
 ## Instalation
 
