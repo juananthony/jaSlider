@@ -7,4 +7,6 @@ jQuery plugin to create a slider menu on your website. To create this plugin was
 
 ## Instalation
 
-To use jaSlider you have to include jaSlider javascript and css stylesheet files to your projects:[jaSlider.js / jaSlider.min.js],[jaSlider.css / jaSlider.min.css]
+To use jaSlider you have to include jaSlider javascript and css stylesheet files to your projects:
+* jaSlider.js / jaSlider.min.js
+* jaSlider.css / jaSlider.min.css
