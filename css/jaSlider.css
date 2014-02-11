@@ -13,12 +13,14 @@
 	/*background-image: url('../img/bg/bg03.png');*/
 	background-repeat: repeat;
 	height: 100%;
-	left: -256px;
+	/*left: -256px;*/
+
 	/*border-right: solid 2px black;*/
 }
 
 .jaslider-content{
 	position: relative;
+	left: 256px;
 }
 
 .jaslider-button{
