@@ -7,25 +7,16 @@
 	position: absolute;
 	float:left;
 	color:#fff;
-	/*width: 250px;*/
-	/*z-index: 300000;*/
 	background: rgb(73,73,73);
-	/*background-image: url('../img/bg/bg03.png');*/
-	/*background-repeat: repeat;*/
 	height: 100%;
-	/*left: -250px;*/
-
-	/*border-right: solid 2px black;*/
 }
 
 .jaslider-content{
 	position: relative;
-	/*left: 256px;*/
 }
 
 .jaslider-button{
 	display: inline-block;
-	/*background: url('../img/menu25.png');*/
 	background-repeat: no-repeat; 
     border-collapse: collapse;
     border-radius: 5px;
