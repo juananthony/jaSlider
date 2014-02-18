@@ -35,8 +35,8 @@ To use jaSlider, your html code have to look like this:
 There is a preview with menu hidden.
 ![jaSlider demo image 01](./docs/demo01.png)
 
-After clicking on 'More' button, Menu appears moving the content.
+After clicking on More button, Menu appears moving the content.
 ![jaSlider demo image 02](./docs/demo02.png)
 
-In this image,
+In this image.
 ![jaSlider demo image 03](./docs/demo03.png)
