@@ -1,6 +1,7 @@
 .jaslider-div{
 	position: relative;
 	height: 100%;
+	overflow-x:hidden;
 }
 
 .jaslider-menu{
