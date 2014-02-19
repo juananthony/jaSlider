@@ -21,7 +21,7 @@ To use jaSlider you have to include jaSlider javascript and css stylesheet files
 
 To use jaSlider, your html code have to look like this:
 
-```
+```html
 <body>
 …
 	<div class="jaslider-div">
@@ -37,7 +37,7 @@ To use jaSlider, your html code have to look like this:
 ```
 With this structure, you have to include jaSlider into your .jaslider-div in your 'jQuery ready' function:
 
-```
+```js
 $(function() {
 	$(".jaslider-div").jaSlider();
 });
@@ -50,17 +50,17 @@ You have two ways to show jaSlider Menu:
 
 * Adding "jaslider-button" class to your button. 
 
-```
+```html
 <button class="jaslider-button">More</button>
 ```
 
 
 * Adding button into jaSlider creation.
 
-```
+```html
 <button id="more">More</button>
 ```
-```
+```js
 $(function(){
 	var settings = {
 		button: $("#more")
