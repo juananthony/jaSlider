@@ -19,7 +19,7 @@ To use jaSlider you have to include jaSlider javascript and css stylesheet files
 
 ## How to use
 
-To use jaSlider, your html code have to look like this:
+To use jaSlider, your html code has to look like this:
 
 ```html
 <body>
